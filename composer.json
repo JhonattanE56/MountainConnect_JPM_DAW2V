@@ -1,0 +1,13 @@
+{
+  "name": "Mountain Connect",
+  "type": "project",
+  "authors":
+  [
+    {
+      "name": "Jhonattan Elías Prieto Morillo"
+    }
+  ],
+  "require": {
+    "php": ">=8.3"
+  }
+}

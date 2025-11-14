@@ -1,0 +1,10 @@
+.idea/
+.vscode/
+.github/
+vendor/
+
+# Don't ignore .gitkeep files
+# Ignore uploads
+uploads/*.png
+uploads/*.jpg
+uploads/*.jpeg
