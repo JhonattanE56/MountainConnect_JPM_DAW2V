@@ -329,4 +329,23 @@
             }
             return $errors;
         }
+        
+        /**
+         * Returns the real value of a route's difficulty.
+         *
+         * @param string $valor
+         *
+         * @return string
+         */
+        public static function devolverValorDificultadRuta(string $valor): string
+        {
+            return match($valor) {
+                '1' => 'Muy bajo',
+                '2' => 'Bajo',
+                '3' => 'Medio',
+                '4' => 'Alto',
+                '5' => 'Muy alto',
+                default => 'Desconocido'
+            };
+        }
     }

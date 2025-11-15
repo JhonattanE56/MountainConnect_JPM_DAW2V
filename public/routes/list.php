@@ -50,7 +50,7 @@
 						</div>
 						<div>
 							<a href="view.php?module=routes&id=<?= $route['id'] ?>" class="btn btn-primary btn-sm me-2">Ver Detalles</a>
-							<span class="badge bg-secondary">Nivel: <?= $route['physical_level']?></span>
+							<span class="badge bg-secondary">Nivel: <?= FunctionsMountainConnect::devolverValorDificultadRuta($route['physical_level'] ?? '') ?></span>
 						</div>
 					</div>
 				</div>

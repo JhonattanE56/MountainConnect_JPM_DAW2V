@@ -33,7 +33,7 @@
 <header class="container-fluid bg-primary text-white mb-4 py-3">
 	<div class="container d-flex align-items-center justify-content-between">
 		<div>
-			<h1 class="h3 mb-0">Mountain Connect</h1>
+			<h1 class="h3 mb-0"><a href="<?= $check_path ?>index.php" style="text-decoration: none; color: #FFFFFF">Mountain Connect</a></h1>
 		</div>
 		<div class="d-flex align-items-center gap-2">
 			<a class="btn btn-outline-light" href="<?= $check_path ?>routes/list.php">Rutas</a>
